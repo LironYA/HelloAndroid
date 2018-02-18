@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.helloandroid.HelloAndroid"
+    android:background="#ffffff"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:orientation="horizontal">
+        <ImageView
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:src="@drawable/studentsfirst"
+         android:paddingTop="8dp"
+         android:scaleType="centerCrop" />
+     </LinearLayout>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:layout_weight="1.2"
+         android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/udacity"
+        android:textColor="@color/udacity_grey"
+        android:textAppearance="?android:textAppearanceMedium" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingBottom="2dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/_2465_latham_st"
+        android:textColor="@color/udacity_grey"
+        android:textAppearance="?android:textAppearanceMedium" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingBottom="2dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/mountain_view"
+        android:textColor="@color/udacity_grey"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:contentDescription="@string/mountain_view"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingBottom="2dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/phone"
+        android:textColor="@color/udacity_grey"
+        android:textAppearance="?android:textAppearanceMedium" />
+     </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:paddingTop="5dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/screenlogo" />
+        <ImageView
+            android:id="@+id/android_icon"
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/androidlogo" />
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-condensed"
+            android:padding="5dp"
+            android:text="@string/maxwebsite"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@color/udacity_grey" />
+        <ImageView
+            android:id="@+id/graph_icon"
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:paddingTop="5dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/searchlogo" />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:paddingTop="5dp"
+            android:src="@drawable/deeplogo" />
+
+    </LinearLayout>
+</LinearLayout>

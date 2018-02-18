@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">HelloAndroid</string>
+    <string name="udacity">Udacity</string>
+    <string name="website">www.udacity.com</string>
+    <string name="_2465_latham_st">2465 Latham St</string>
+    <string name="mountain_view">Mountain View, CA 94043</string>
+    <string name="phone">054-407-5858</string>
+    <string name="max">Maximize your impact</string>
+    <string name="maxwebsite">Maximize your impact\n &#160;&#160;&#160;www.Udacity.com</string>
+</resources>
+
